@@ -7,11 +7,11 @@ class Author
     
   end 
   
-  # def songs 
-  # post= Post.all.select do |post|
-  #     post.author == self 
-  #   end 
-  # end
+  def songs 
+  post= Post.all.select do |post|
+      post.author == self 
+    end 
+  end
   
   
   
