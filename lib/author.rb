@@ -7,7 +7,7 @@ class Author
   end 
   
   def posts(post)
-    
+    post= 
   end 
   
   
