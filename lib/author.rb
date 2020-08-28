@@ -24,7 +24,7 @@ class Author
   end 
   
   def self.post_count
-    binding.pry
+    #binding.pry
     Post.all.count 
   end 
   
