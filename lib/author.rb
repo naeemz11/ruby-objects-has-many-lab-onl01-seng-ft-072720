@@ -1,16 +1,16 @@
 class Author 
   
-  attr_accessor :name, :post
+  attr_accessor :name, :posts
   
   def initialize(name)
     self.name = name 
   end 
   
-  def songs 
-   post= Post.all.select do |post|
-      post.author == self 
-    end 
-  end
+  # def songs 
+  # post= Post.all.select do |post|
+  #     post.author == self 
+  #   end 
+  # end
   
   
   
