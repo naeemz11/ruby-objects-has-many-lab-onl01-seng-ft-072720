@@ -16,7 +16,12 @@ class Song
  
  
  def artist_name(name)
-   artist = 
+   artist = Artist.new(name)
+   if artist.name == name 
+     name 
+   else 
+     nil
+   end 
  end 
  
  end 
