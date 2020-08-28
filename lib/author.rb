@@ -1,13 +1,13 @@
 class Author 
   
-  attr_accessor :name, :posts
+  attr_accessor :name, :post
   
   def initialize(name)
     self.name = name 
     
   end 
   
-  def songs 
+  def posts 
   post= Post.all.select do |post|
       post.author == self 
     end 
