@@ -6,10 +6,11 @@ class Author
     self.name = name 
   end 
   
-  def posts(posts)
-    self.name(posts)
-  end 
-  
+  def songs 
+    Post.all.select do |post|
+      post.author == self 
+    end 
+  end
   
   
   
