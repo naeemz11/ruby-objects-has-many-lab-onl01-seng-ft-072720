@@ -12,8 +12,7 @@ class Author
     end 
   end
   
-  def author_name
-    if self.
+  d
   
   
   
