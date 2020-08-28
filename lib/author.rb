@@ -7,7 +7,7 @@ class Author
   end 
   
   def posts(post)
-    post= Post.new
+    self.post == self
   end 
   
   
