@@ -4,6 +4,7 @@ class Author
   
   def initialize(name)
     self.name = name 
+    self.posts= posts
   end 
   
   # def songs 
