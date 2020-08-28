@@ -6,7 +6,9 @@ class Author
     self.name = name 
   end 
   
-  
+  def posts(post)
+    
+  end 
   
   
   
