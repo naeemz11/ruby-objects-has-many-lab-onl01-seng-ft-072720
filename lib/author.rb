@@ -6,7 +6,7 @@ class Author
     self.name = name 
   end 
   
-  def 
+  
   
   
   
